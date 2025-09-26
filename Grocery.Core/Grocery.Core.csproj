@@ -1,12 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
-	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
-	</PropertyGroup>
 
-	<ItemGroup>
-		<!-- Alleen als je MVVM source generators gebruikt -->
-		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
-	</ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <UseMaui>true</UseMaui>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Maui.Storage" Version="8.0.0" />
+  </ItemGroup>
+
 </Project>
